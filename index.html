@@ -1,77 +1,621 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 
-<title>Module 3</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Local-Ket</title>
+  <!--page-icon------------>
+  <link rel="shortcut icon" href="images/logo.png">
+  <!--stylesheet------------->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--light-slider.css------------->
+  <link rel="stylesheet" type="text/css" href="css/lightslider.css">
+  <!--Jquery-------------------->
+  <script type="text/javascript" src="js/Jquery.js"></script>
+  <!--lightslider.js--------------->
+  <script type="text/javascript" src="js/lightslider.js"></script>
 
 </head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style.css">
-
-
-
 <body>
-
-
-<nav class="navbar" id="top">
-  <div class="container-fluid">
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#">Food, LLC</a>
-    </div>
-
-    <div class="collapse" id="myNavbar">
-      <ul class="nav navbar-nav visible-xs">
-        <li><a class="menu-item" href="#">Chicken</a></li>
-        <li><a class="menu-item" href="#">Beef</a></li> 
-        <li><a class="menu-item" href="#">Sushi</a></li> 
-      </ul>
-    </div>
-
+  <div class="promo">
+    <span>Get anything in your locality</span>
   </div>
-</nav>
+  <!-- HEADER -->
+  <header class="header">
+    <!-- NAVIGATION -->
+    <nav class="nav container">
+      <div class="navigation d-flex">
+        <div class="hamburger">
+          <i class="bx bx-menu"></i>
+        </div>
+        <div class="logo">
+          <h2>LOCAL-KET</h2>
+        </div>
 
-<h1 class="main-title">Our Menu</h1>
+        <div class="menu">
+          <div class="top">
+            <span class="close">close <i class="bx bx-x"></i></span>
+          </div>
 
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="home.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="shop.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Household needs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Grocery/dairy products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
+        <div class="icons d-flex">
+          <div><i class="bx bx-search"></i></div>
+          <div><i class="bx bx-user"></i></div>
+          <div><i class="bx bx-heart"></i></div>
+          <div>
+            <i class="bx bx-shopping-bag"></i>
+            <span class="align-center">0</span>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-<div class="row">
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-content d-flex container">
+        <div class="left">
+          <span class="subtitle">SUPPORT YOUR LOCAL TRADERS</span>
+          <h1 class="title">
+            Any product
+            <span class="color">with MINIMUM <br />
+              DELIVERY CHARGE</span> <br>
+            in your neighbourhood <br />
+            
+          </h1>
 
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="content-box">
-      <p class="item-name">Chicken</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
+          <h5>Every Minute Every Hour Every Day</h5>
+          <a href="#" class="btn">GO FOR IT</a>
+        </div>
+
+        <div class="right">
+          <img src="./img/bg..jpeg" alt="picture" style="text-align: center;">
+        </div>
+      </div>
     </div>
-  </div>
+  </header>
 
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="content-box">
-      <p class="item-name">Beef</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
+  <!--  -->
+  <section class="section services">
+    <div class="service-center container">
+      <div class="service">
+        <span class="icon"><i class="bx bx-purchase-tag"></i></span>
+        <h4>NO Delivery Charge</h4>
+        <span class="text">No Need to go Outside</span>
+      </div>
+
+      <div class="service">
+        <span class="icon"><i class="bx bx-gift"></i></span>
+        <h4>Safe and Fast Delivery</h4>
+        <span class="text">Easy payment methods and delivery within 2 days</span>
+      </div>
+
+      <div class="service">
+        <span class="icon"><i class="bx bx-book-reader"></i></span>
+        <h4>7 Day Returns</h4>
+        <span class="text">faster return and repayment policy</span>
+      </div>
+
+      <div class="service">
+        <span class="icon"><i class="bx bx-headphone"></i></span>
+        <h4>24/7 Support</h4>
+        <span class="text">Delivered to your door</span>
+      </div>
+
+      <div class="service">
+        <span class="icon"><i class="bx bx-heart"></i></span>
+        <h4>Donation</h4>
+        <span class="text">Tiny steps towards happiness</span>
+      </div>
+
+      <div class="service">
+        <span class="icon"><i class="bx bx-user"></i></span>
+        <h4>Standing with the locals</h4>
+        <span class="text">Be vocal about local</span>
+      </div>
     </div>
-  </div>
+  </section>
 
+  <!-- HighLights -->
+ 
+  
+    <section class="section">
+        <div class="title">
+          <h1><span>High</span> Lights</h1>
+         
+        </div>
+        
+        <section class="slider">
+	<ul id="autoWidth" class="cs-hidden">
+	<!--1------------------------------------>	
+  <li class="item-a">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="images/1.jpeg" alt="1">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Start Now</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	
+	
+	</div>		
+</li>
+	<!--2------------------------------------>	
+  <li class="item-b">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="images/2.jpeg" alt="2">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Start Now</a>	
+	</div>
+	</div>
+	
+	
+	</div>		
+</li>
+	<!--3------------------------------------>	
+  <li class="item-c">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="images/3.jpeg" alt="3">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Start Now</a>	
+	</div>
+	</div>
+	
+	
+	</div>		
+</li>
+	<!--4------------------------------------>	
+  <li class="item-d">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="images/4.jpeg" alt="4">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Start Now</a>	
+	</div>
+	</div>
+	
+	
+	</div>		
+</li>
+	<!--5------------------------------------>	
+  <li class="item-e">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="images/5.jpeg" alt="5">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Start Now</a>	
+	</div>
+	</div>
+	
+	
+	</div>		
+</li>
+	<!--6------------------------------------>	
+  <li class="item-f">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="images/6.jpeg" alt="6">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Start Now</a>	
+	</div>
+	</div>
+	
+	
+	</div>		
+</li>
+	<!--7------------------------------------>	
+  <li class="item-g">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="images/7.jpeg" alt="7">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Start Now</a>	
+	</div>
+	</div>
+	
+	
+	</div>		
+</li>  
+</ul>
+</section>
+    </section>>
 
-  <div class="col-lg-4 col-md-12 col-sm-12">
-    <div class="content-box">
-      <p class="item-name">Sushi</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
+	
+  <!-- Shop By CAtegories -->
+  <section class="section">
+    <div class="title">
+      <h1><span>Shop By</span> Categories</h1>
     </div>
+    <div class="product-center container">
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/sop1.jpeg" alt="" />
+        </div>
+        <p>Groceries/Dairy Products</p>
+         </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/sop2.jpeg" alt="" />
+        </div>
+        <p>Kids Section</p>
+        </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/sop3.jpeg" alt="" />
+        </div>
+        <p>Mens Section</p>
+        
+      </div>
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/sop4.jpeg" alt="" />
+        </div>
+        <p>Women Section</p>
+        
+      </div>
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/sop5.jpeg" alt="" />
+        </div>
+        <p>Handicrafts Section</p>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- toll free numbers 
+  <section class="section">
+    <div class="title">
+      <h1><span>Helpline</span> Numbers</h1>
+    </div>
+    <div class="cat container">
+      <div class="item item-1">
+        <img src="./img/cat1.jpeg" alt="" />
+      </div>
+      <div class="item item-2">
+        <img src="./img/cat2.jpeg" alt="" />
+      </div>
+      <div class="item item-3">
+        <img src="./img/cat3.jpeg" alt="" />
+      </div>
+      <div class="item item-4">
+        <img src="./img/cat4.jpeg" alt="" />
+      </div>
+      <div class="item item-5">
+        <img src="./img/cat5.jpeg" alt="" />
+      </div>
+      <div class="item item-6">
+        <img src="./img/cat6.jpeg" alt="" />
+      </div>
+      <div class="item item-7">
+        <img src="./img/cat7.jpeg" alt="" />
+      </div>
+    </div>
+  </section> -->
+
+
+<!-- toll free numbers -->
+<section class="section">
+  <div class="title">
+    <h1>Helpline<span> Numbers</span></h1>
   </div>
+  <div class="product-center container">
+    <div class="product">
+      <div class="img-cover">
+        <img src="./img/cat1.jpeg" alt="" />
+      </div>
+      <p>Washer man</p>
+      
+      <div class="price">123-456-7890</div>
+    </div>
 
-</div>
+    <div class="product">
+      <div class="img-cover">
+        <img src="./img/cat2.jpeg" alt="" />
+      </div>
+      <p>Mason</p>
+      
+      <div class="price">123-456-7890</div>
+    </div>
+
+    <div class="product">
+      <div class="img-cover">
+        <img src="./img/cat3.jpeg" alt="" />
+      </div>
+      <p>Laborer</p>
+      
+      <div class="price">123-456-7890</div>
+    </div>
+    <div class="product">
+      <div class="img-cover">
+        <img src="./img/cat4.jpeg" alt="" />
+      </div>
+      <p>painter</p>
+      
+      <div class="price">123-456-7890</div>
+    </div>
+    <div class="product">
+      <div class="img-cover">
+        <img src="./img/cat5.jpeg" alt="" />
+      </div>
+      <p>Eletrician</p>
+      
+      <div class="price">123-456-7890</div>
+    </div>
+    <div class="product">
+      <div class="img-cover">
+        <img src="./img/cat6.jpeg" alt="" />
+      </div>
+      <p>Plumber</p>
+      
+      <div class="price">123-456-7890</div>
+    </div>
+    <div class="product">
+      <div class="img-cover">
+        <img src="./img/cat7.jpeg" alt="" />
+      </div>
+      <p>Mechanic</p>
+      
+      <div class="price">123-456-7890</div>
+    </div>
+    
+  </div>
+</section>
 
 
+  <!-- Popular Handicrafts Products -->
+  <section class="section">
+    <div class="title">
+      <h1>Popular <span>Handicrafts Products</span></h1>
+    </div>
+    <div class="product-center container">
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/product1.jpeg" alt="" />
+        </div>
+        <p>dash</p>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bx-star"></i>
+        </div>
+        <div class="price">200</div>
+      </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/product2.jpeg" alt="" />
+        </div>
+        <p>dash</p>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bx-star"></i>
+        </div>
+        <div class="price">200</div>
+      </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/product3.jpeg" alt="" />
+        </div>
+        <p>dash</p>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bx-star"></i>
+        </div>
+        <div class="price">200</div>
+      </div>
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/product4.jpeg" alt="" />
+        </div>
+        <p>dash</p>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bx-star"></i>
+        </div>
+        <div class="price">200</div>
+      </div>
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/product5.jpeg" alt="" />
+        </div>
+        <p>dash</p>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bx-star"></i>
+        </div>
+        <div class="price">200</div>
+      </div>
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/product6.jpeg" alt="" />
+        </div>
+        <p>dash</p>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bx-star"></i>
+        </div>
+        <div class="price">200</div>
+      </div>
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/product7.jpeg" alt="" />
+        </div>
+        <p>dash</p>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bx-star"></i>
+        </div>
+        <div class="price">200</div>
+      </div>
+      <div class="product">
+        <div class="img-cover">
+          <img src="./img/product8.jpeg" alt="" />
+        </div>
+        <p>dash</p>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bx-star"></i>
+        </div>
+        <div class="price">200</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Site Map</a>
+          <a href="#">Donate</a>
+          <a href="#">Specials</a>
+          
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+          
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Cart List</a>
+          <a href="#">Returns</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            Bikramganj, Rohtas, Bihar
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            ecom@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            123-456-7890
+          </div>
+          <div>
+            <span>
+              <i class="far fa-paper-plane"></i>
+            </span>
+            Bikramganj, Bihar
+          </div>
+          <div>
+            <span>
+              <i class="text-center">&copy;</i>
+            </span>
+            Copyright shivani
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+    
+  </footer>
+
+  <!-- Script -->
+  <script src="./index.js"></script>
+  <!--script-link----------->
+<script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>
