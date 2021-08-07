@@ -132,6 +132,8 @@ img {
 
 
 
+
+
 .nav .icons div {
   font-size: 2rem;
   padding: 0.3rem;
@@ -240,10 +242,12 @@ img {
 
   .nav-item {
     margin: 0 0 2rem 0;
+    font-weight: bold;
   }
 
   .nav-link {
     padding: 0.7rem;
+    font-weight: bold;
   }
 
   .menu.show {
@@ -323,17 +327,24 @@ img {
   }
 
   .hero-content .right img {
-    width: 90%;
+    width: 55%;
+    height: 25em;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 798px) {
   .hero {
     height: calc(80vh - 7rem);
   }
 
   .hero-content .left {
-    margin-top: -35rem;
+    margin-top: -20rem;
+  }
+
+  .hero-content .right img {
+    width: 70%;
+    height: 32rem;
+    right: -10%;
   }
 }
 
@@ -356,7 +367,7 @@ img {
 
   .hero-content .right img {
     width: 100%;
-    height: 35rem;
+    height: 30rem;
     right: -20%;
   }
 }

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Local-Ket</title>
+  <!--page-icon------------>
+  <link rel="shortcut icon" href="images/logo.png">
+  <!--stylesheet------------->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--light-slider.css------------->
+  <link rel="stylesheet" type="text/css" href="css/lightslider.css">
+  <!--Jquery-------------------->
+  <script type="text/javascript" src="js/Jquery.js"></script>
+  <!--lightslider.js--------------->
+  <script type="text/javascript" src="js/lightslider.js"></script>
+  <style>
+    body {
+        background-image: url("images/bg3c.jpg");
+        background-repeat: repeat;
+    }
+    * {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: rgb(223, 231, 205);
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+    </style>
+
+</head>
+
+<body>
+  <div class="promo">
+    <span>Get anything in your locality</span>
+  </div>
+ 
+  <!-- HEADER -->
+  <header class="header">
+    <!-- NAVIGATION -->
+    <nav class="nav container">
+      <div class="navigation d-flex">
+        <div class="hamburger">
+          <i class="bx bx-menu"></i>
+        </div>
+        <div class="logo">
+         <a href="index.html"> <h2>LOCAL-KET</h2></a>
+        </div>
+
+        <div class="menu">
+          <div class="top">
+            <span class="close">close <i class="bx bx-x"></i></span>
+          </div>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="home.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="shop.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="household.html" class="nav-link">Household needs</a>
+            </li>
+            <li class="nav-item">
+              <a href="grocery.html" class="nav-link">Grocery/dairy products</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="icons d-flex">
+          <div><i class="bx bx-search"></i></div>  
+          <div><i class="bx bx-user"></i></div>
+          <div><i class="bx bx-heart"></i></div>
+          <div>
+            <i class="bx bx-shopping-bag"></i>
+            <span class="align-center">0</span></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Help us to be the best to help you:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="images/contact.png" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="email">Email</label><br><br>
+          <input type="email" name="e-mail" id="email" placeholder="abc@xyz.com"><br><br>
+          <label for="locality">City</label>
+          <select id="locality" name="locality">
+            <option value="bikramganj">Bikramganj</option>
+            <option value="sasaram">Sasaram</option>
+            <option value="dehri">Dehri</option>
+          </select>
+          <label for="subject">Your message for us:</label>
+          <textarea id="subject" name="subject" placeholder="Waiting for your suggestions here.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>  
+  <!-- Script -->
+  <script src="./index.js"></script>
+  <!--script-link----------->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
