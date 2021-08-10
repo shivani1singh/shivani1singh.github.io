@@ -343,7 +343,7 @@ img {
 
   .hero-content .right img {
     width: 70%;
-    height: 32rem;
+    height: 33rem;
     right: -10%;
   }
 }
@@ -366,8 +366,8 @@ img {
   }
 
   .hero-content .right img {
-    width: 100%;
-    height: 30rem;
+    width: 80%;
+    height: 18rem;
     right: -20%;
   }
 }
@@ -442,9 +442,13 @@ img {
   font-weight: bold;
 }
 
+
 .title span {
   color: var(--primary);
 }
+
+
+
 
 .product-center {
   display: grid;
