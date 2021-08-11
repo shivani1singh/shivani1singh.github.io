@@ -327,8 +327,8 @@ img {
   }
 
   .hero-content .right img {
-    width: 60%;
-    height: 30em;
+    width: 55%;
+    height: 35em;
   }
 }
 
@@ -349,6 +349,30 @@ img {
 }
 
 @media only screen and (max-width: 567px) {
+  .hero {
+    height: calc(100vh - 7rem);
+  }
+
+  .hero-content .left {
+    margin-top: -20rem;
+  }
+
+  .hero-content .left .title {
+    margin-bottom: 1rem;
+  }
+
+  .hero-content .left h5 {
+    margin-top: 0.5rem;
+  }
+
+  .hero-content .right img {
+    width: 78%;
+    height: 35rem;
+    right: -20%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .hero {
     height: calc(100vh - 7rem);
   }
