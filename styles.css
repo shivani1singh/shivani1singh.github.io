@@ -327,8 +327,8 @@ img {
   }
 
   .hero-content .right img {
-    width: 55%;
-    height: 25em;
+    width: 60%;
+    height: 30em;
   }
 }
 
@@ -366,8 +366,8 @@ img {
   }
 
   .hero-content .right img {
-    width: 80%;
-    height: 25rem;
+    width: 75%;
+    height: 20rem;
     right: -20%;
   }
 }
