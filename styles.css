@@ -343,7 +343,7 @@ img {
 
   .hero-content .right img {
     width: 70%;
-    height: 33rem;
+    height: 30rem;
     right: -10%;
   }
 }
@@ -367,7 +367,7 @@ img {
 
   .hero-content .right img {
     width: 80%;
-    height: 18rem;
+    height: 25rem;
     right: -20%;
   }
 }
@@ -441,6 +441,11 @@ img {
   font-weight: 400;
   font-weight: bold;
 }
+.title h1:hover{
+  background-color: rgb(173, 195, 238);
+  display: inline-block;
+}
+
 
 
 .title span {
